@@ -449,6 +449,26 @@ That is, the sum of the angular momenta of different segments around the total b
 |================
 where `Js` stands for Joule second (equivalent to `kgm^2^s^⁻1^`).
 
+=== Accelerometer data
+
+Accelerometer data is often recorded by means of IMUs that register acceleration of body segments. 
+
+**Description**: This file shall contain the estimated accelerometer.
+
+**Filename root**: `Accelerometer`.
+
+**File format**: `.csv`
+
+**File structure**:
+
+.Acceleration file structure and unit
+[options="header"]
+|================
+| time | x | y | z
+| `sec` | `m/s^2` | `m/s^2` | `m/s^2`
+|================
+
+
 **bibliography**:
 
 - [[[Bennett2010]]]: B.C Bennett, S.D. Russell, P. Sheth, M. F. Abel. Angular momentum of walking at different speeds. Human Movement Science, Colume 29, Issue 1, 2010 (https://kin.sfsu.edu/sites/default/files/Angular%20momentum%20of%20walking%20at%20different%20speeds.pdf[link])
