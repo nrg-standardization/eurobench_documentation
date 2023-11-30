@@ -468,6 +468,7 @@ Accelerometer data is often recorded by means of IMUs that register acceleration
 | `sec` | `m/s^2` | `m/s^2` | `m/s^2` | `m/s^2` | `m/s^2` | `m/s^2` | ... | ... | ...
 |================
 
+acceleration labels should refer to the names provided within the <<model.adoc#fig_joint_center_label, human model document>>.
 
 **bibliography**:
 
