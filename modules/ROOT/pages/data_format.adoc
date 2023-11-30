@@ -455,7 +455,7 @@ Accelerometer data is often recorded by means of IMUs that register acceleration
 
 **Description**: This file shall contain the estimated accelerometer.
 
-**Filename root**: `Accelerometer`.
+**Filename root**: `accelerometer`.
 
 **File format**: `.csv`
 
@@ -464,8 +464,8 @@ Accelerometer data is often recorded by means of IMUs that register acceleration
 .Acceleration file structure and unit
 [options="header"]
 |================
-| time | x | y | z
-| `sec` | `m/s^2` | `m/s^2` | `m/s^2`
+| time | r_foot_y | r_foot_x | r_foot_z | r_knee_y | r_knee_x | r_knee_z | ... | ... | ...
+| `sec` | `m/s^2` | `m/s^2` | `m/s^2` | `m/s^2` | `m/s^2` | `m/s^2` | ... | ... | ...
 |================
 
 
